@@ -1,0 +1,219 @@
+/* .wrapper { */
+  /* width: 80%; */
+  /* margin: 0 auto; */
+/* } */
+
+.button {
+  background-color: #26a6ae;
+  border: none;
+  border-radius: 50%; 
+  color: black;
+  padding: 10px;
+  font-family:'Pacifico', cursive; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 25px;
+  width: 55px;
+  margin:  -10px -10px;
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.bg-img {
+  /* The image used */
+  /* background-image: url("hello.jpg"); */
+
+  /* min-height: -100px; */
+
+  /* Center and scale the image*/
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+
+  /* Needed to position the navbar */
+ /* position: sticky;*/
+  float: right;
+}
+
+/* .image { */
+  /* float: right; */
+ 
+/* } */
+
+/* Position the navbar container inside the image */
+.container {
+  position: sticky;
+  margin: 10px;
+  width: auto;
+}
+
+.topnav{
+  /* These values are used here specifically to keep the menu in the proper spot on the display and are not required to create the menu.*/
+  padding:20px;
+  margin:20px;
+  
+}
+
+.topnav ul{
+  list-style:none;
+  font-family:'Pacifico', cursive;
+  font-weight:bold;
+  text-align:left;
+  width:50px;
+}
+
+.topnav a:link, a:visited{
+  background-color:#26a6ae;
+  border-bottom:15px solid #000;
+  color:#efecca;
+  margin-top: 25px;
+  display:block;
+  text-decoration:none;
+  padding:20px 10px;
+}
+
+.topnav a:hover{
+  background-color:#efecca;
+  color:#046380;
+}
+
+.topnav a:active{
+  background-color:#a7a37e;
+}
+
+
+/* styles for about */
+body * {
+      font-family: 'Pacifico', cursive;
+      font-family: 'Kalam', cursive;
+     
+
+}
+
+/* Change the color of links on hover */
+.topnav {
+  font-family: 'Pacifico', cursive;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 32px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100%/3);
+  
+}
+
+.column img {
+
+  width: 75%;
+  height: auto;
+
+}
+
+.fancy-image {
+  width: 75%;
+}
+
+body {
+  background: #dfb6c4;
+}
+
+.About {
+  font-family: 'Pacifico', cursive;
+}
+
+p {
+  text-align: center;
+}
+
+
+
+.rounded-circle {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+.column {
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "<img src="/images/Amik.png" alt="Cute beaver" style="height:900px; width:75%">;
+  clear: both;
+  display: table;
+}
+
+
+form {
+  padding: 10px 550px;
+  margin: 10px -300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+footer a {
+  text-decoration: none;
+}
+ion-icon {
+  font-size: 24px;
+}
+
+.social-icon {
+  color: #5f78e6;
+  transition: 0.5s;
+  margin: 0 10px;
+}
+.social-icon:hover,
+.social-icon:focus {
+  color: #f3e59a;
+}
+.top-button {
+  color: #fff;
+  background-color: #5f78e6;
+  padding: 8px 16px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.top-button:hover,
+top-button:focus {
+}
+
+footer {
+  background-color: #ee9fd8;
+  padding: 16px 0;
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
