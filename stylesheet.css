@@ -27,7 +27,7 @@ section {
 
 }
 
-.bg-img {
+.bg-img img {
   /* The image used */
   /* background-image: url("hello.jpg"); */
 
@@ -40,8 +40,11 @@ section {
 
   /* Needed to position the navbar */
  /* position: sticky;*/
-  float: right;
+ width: 80%;
+ margin: 0 auto;
+ display: block;
 }
+
 
 /* .image { */
   /* float: right; */
@@ -56,7 +59,7 @@ section {
 }
 
 .topnav{
-  /* These values are used here specifically to keep the menu in the proper spot on the display and are not required to create the menu.*/
+  /* keep menu in the proper spot*/
   padding:20px;
   margin:20px;
   
@@ -166,10 +169,13 @@ p {
   display: table;
 }
 
+.form-container {
+  width: 90%;
+}
 
 form {
-  padding: 10px 550px;
-  margin: 10px -300px;
+  padding: 10px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
